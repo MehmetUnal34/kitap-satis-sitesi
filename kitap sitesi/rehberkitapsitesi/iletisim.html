@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>rehberkitap.com</title>
+
+	<link rel="shortcut icon" href="u/rehberkitap/rehberkitap.ico" type="image/x-icon" />
+
+	<link type="text/css" href="../stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" />
+	<link type="text/css"
+		href="../cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css"
+		rel="stylesheet" />
+	<link type="text/css" href="../cdn.jsdelivr.net/npm/slick-carousel%401.8.1/slick/slick.css" rel="stylesheet" />
+	<link type="text/css" href="js/fancybox/jquery.fancybox0521.css?v=1130" rel="stylesheet" />
+	<link type="text/css" href="templates/default-neo/css/main0521.css?v=1130" rel="stylesheet" />
+
+	<style>
+		.form-group-select {
+			display: none
+		}
+
+
+
+
+		.banner_img {
+			border-radius: 10px;
+			background: white;
+		}
+		.publisher a{
+			color: #07e6ff !important;
+		}
+
+		.la-search:before {
+			color: #000;
+		}
+
+
+		.Product .discount {
+			border-radius: 10px;
+		}
+
+		.card-link:hover,
+		.form-links-activation:hover,
+		.form-links-top a:hover {
+			color: darkslategray;
+		}
+
+		.side_item a:hover {
+			color: darkslategray;
+		}
+
+		@media screen and (max-width: 768px) {
+			.Header-menu .container {
+				background: #f2f5f5;
+			}
+
+			.tabs_view .nav a {
+				margin-bottom: 10px;
+			}
+
+			.Header-menu .container>i {
+				color: darkslategray;
+			}
+
+			.Header-menu ul li a span {
+				color: darkslategray;
+			}
+		}
+
+		.prd_view .publisher {
+			font-size: 1.3em;
+			font-weight: 600;
+		}
+
+		.publisher:hover,
+		.cart_list_table .prd_name:hover {
+			color: darkslategray;
+		}
+
+		.Search .form-group-search .btn {
+			background-color: #5eb6ff;
+			color: #fff;
+			width: 100px;
+		}
+
+		.la-search {
+			color: #fff;
+		}
+
+		.la-search:after {
+			content: "Ara";
+			font-family: Montserrat, sans-serif;
+			font-weight: 200;
+			font-size: 16px;
+			margin-left: 10px;
+			color: 000;
+		}
+
+		.Header-menu ul li a {
+			padding: 7px 20px;
+		}
+
+		.Header-menu ul li:last-child a {
+			background-color: #14006d;
+			color: #fff;
+			border-radius: 5px;
+		}
+
+		.tabs_view .nav a {
+			background-color: #07e6ff;
+			margin-right: 5px;
+			color: #fff
+		}
+
+		.Product-content .price_box .price_sale {
+			font-weight: bolder;
+			color: #1d2124;
+		}
+
+		.tabs_view .nav a.active {
+			background-color: #fff;
+			border-bottom-color: #07e6ff;
+		}
+
+		.Header-menu {
+			color: #fff;
+			background-color: #e9ecef;
+		}
+
+		.Header-menu ul li:hover {
+			background-color: #07e6ff;
+			border-radius: 5px;
+		}
+
+		.Box-header a {
+			font-weight: bolder;
+		}
+
+		.prd_view .pricebox_content .sale_price_row {
+			font-size: 1.8em;
+			color: #1d2124;
+			font-weight: bolder;
+			margin-top: 5px;
+		}
+
+
+		.Product .new_icon {
+			background-color: #07e6ff;
+			left: 10px;
+			text-transform: uppercase;
+			border-radius: 10px;
+		}
+
+		.prd_view .new_icon {
+			border-radius: 10px;
+			background-color: #07e6ff;
+		}
+
+		.prd_view .pricebox .discount {
+			background-color: #6c757d;
+		}
+
+		.Product .discount {
+			background-color: #0185f9;
+		}
+
+
+		.prd_view .pricebox .discount_text {
+			text-transform: uppercase;
+			font-size: 1em;
+			margin-top: 3px;
+			font-weight: bold;
+		}
+
+		.prd_view .pricebox .discount_number {
+			font-size: 1.3em;
+			font-weight: 600;
+		}
+
+		.Header-menu ul li a {
+			color: #212529;
+		}
+
+		.prd_view .pricebox .discount {
+			border-radius: 10px;
+		}
+
+
+		a {
+			color:
+				#ff5100;
+			font-weight: 400;
+			text-decoration: none;
+			background-color: transparent;
+		}
+
+		.Footer-content-logo img {
+			background: #1d2124;
+		}
+
+		.la-search {
+			color: #1d2124;
+		}
+
+		.button_order_confirm,
+		.button_order_next {
+			font-size: 1.3em
+		}
+	</style>
+
+
+	<!-- Google Tag Manager -->
+	<script>(function (w, d, s, l, i) {
+			w[l] = w[l] || []; w[l].push({
+				'gtm.start':
+					new Date().getTime(), event: 'gtm.js'
+			}); var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+					'../www.googletagmanager.com/gtm5445.html?id=' + i + dl; f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-M7FKRRMM');</script>
+	<!-- End Google Tag Manager -->
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="../www.googletagmanager.com/nsc242.html?id=GTM-M7FKRRMM" height="0" width="0"
+			style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	<meta name="google-site-verification" content="Z5yK8sbe_l5fhSQAWeD3E3P6DhkF-c8Nsnn_3SIEVog" />
+	<style>
+		body,
+		html {
+			--color-primary: 3, 3, 3;
+			--color-lighten10: 26, 26, 26;
+			--color-lighten15: 39, 39, 39;
+			--color-lighten20: 51, 51, 51;
+			--color-darken3: 0, 0, 0;
+			--color-darken6: 0, 0, 0;
+			--color-secondary: 0, 0, 0;
+		}
+	</style>
+
+</head>
+
+<body>
+	<div class="page page_0 page_home  ">
+		<div class="container-page container-fluid container_logged_out">
+			<div class="Content-wrapper">
+
+				<div class="banner_top"></div>
+
+				<div class="Header-top">
+					<div class="container">
+
+						<div class="Header-top-menu">
+
+						</div>
+
+						<div class="user_menu">
+							<ul>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<header class="Header Header--sticky">
+					<div class="container Header-container">
+						<div class="Header-logo">
+							<i id="HeaderMenuOpen" class="la la-bars"></i>
+							<a href="index.html">
+								<img src="u/rehberkitap/rehberlogo.png" alt="Rehberkitap">
+							</a>
+							<i id="HeaderSearchOpen" class="la la-search"></i>
+						</div>
+
+						<div class="Search">
+							<div class="Search-overlay"></div>
+							<div class="Search-container">
+								<i id="HeaderSearchClose" class="la la-close"></i>
+								<form>
+									<input type="hidden" name="p" value="Products" />
+									<input type="hidden" id="q_field_active" name="q_field_active" value="0" />
+
+									<div class="Search-content">
+
+										<div class="form-group form-group-search">
+											<input data-container="form-group-search" type="text" name="q" id="qsearch"
+												class="form-control" value=""
+												placeholder="kitap adı / yazar / yayınevi " autocomplete="off">
+											<button type="submit" class="btn" name="search">
+												<i class="la la-search"></i>
+											</button>
+											<div class="Search-autocomplete">
+												<div class="Search-autocomplete-content"></div>
+												<div class="Search-autocomplete-none">Sonuç bulunamadı</div>
+											</div>
+										</div>
+									</div>
+
+									<input type="hidden" id="q_field" name="q_field" value="" />
+								</form>
+							</div>
+						</div>
+						
+					</div>
+
+					<nav class="Header-menu">
+						<div class="Header-menu-overlay"></div>
+						<div class="container">
+							<i id="HeaderMenuClose" class="la la-times"></i>
+							<div class="Header-right">
+
+								<div class="Cart ">
+
+								</div>
+
+								<div class="cart_box_container"></div>
+							</div>
+							<ul>
+								<li><a href="index.html"><span>ANASAYFA</span></a>
+								</li>
+								<li><a href="yazarlar.html"><span>YAZARLAR</span></a>
+								</li>
+								<li><a href="yayinevleri.html"><span>YAYIN EVLERİ</span></a>
+								</li>
+								<li><a href="hakkimizda.html"><span>HAKKIMIZDA</span></a>
+								</li>
+								<li><a href="iletisim.html"><span>İLETİŞİM</span></a>
+								</li>
+
+
+							</ul>
+
+						</div>
+					</nav>
+				</header>
+				<main class="Content">
+					<div class="container">
+
+						<nav aria-label="breadcrumb">
+							<ul class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+								<li class="breadcrumb-item" aria-current="page" itemprop="itemListElement" itemscope
+									itemtype="https://schema.org/ListItem">
+									<a itemprop="item" >
+										<span itemprop="name">Anasayfa</span>
+									</a>
+									<meta itemprop="position" content="1" />
+								</li>
+								<li class="breadcrumb-item active" aria-current="page" itemprop="itemListElement"
+									itemscope itemtype="https://schema.org/ListItem">
+									<a itemprop="item" >
+										<span itemprop="name">İletişim</span>
+									</a>
+									<meta itemprop="position" content="2" />
+								</li>
+							</ul>
+						</nav>
+					</div>
+
+
+					<div id="layout_style" class="container layout_010">
+						<div class="main_content">
+							<div class="Contact">
+
+
+								<h1 class="contentHeader crmHeader">İletişim</h1>
+
+								<div class="Contact-wrapper ">
+									<div class="Contact-item">
+										<div class="contact_info">
+											<div class="box_p">
+												<div class="cfg_firm_name">rehberkitap</div>
+												<div class="cfg_firm_address"><b>Adres:</b> Kayseri Üniversitesi</div>
+												<div class="cfg_firm_phone1"><b>Tel:</b> <a >0578 709 87 90</a></div>
+												<div class="cfg_firm_email"><b>Email:</b> bilgi@rehberkitap.com</div>
+											</div>
+
+										</div>
+
+										<div class="google_map mt-4">
+											<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1568652.339073102!2d31.076138974020786!3d39.83448223704874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x152b12c703ff9691%3A0x3ef10fa28c5ffea!2sKayseri%20%C3%9Cniversitesi%2015%20Temmuz%20Yerle%C5%9Fkesi!5e0!3m2!1str!2str!4v1717277654780!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+										</div>
+									</div>
+									<div class="Contact-item">
+										<div class="frm">
+
+											<form  
+												>
+												<input type="hidden" name="csrf_token" class="csrf_token" value="" />
+												<div class="form_table contact_form_table">
+
+
+
+													<div class="error"></div>
+													<div class="form-group">
+														<label for="crm_name">Ad Soyad</label>
+														<input class="form-control" type="text" required="required"
+															placeholder="Ad Soyad" name="crm_name" id="crm_name"
+															value="">
+													</div>
+
+													<div class="error"></div>
+													<div class="form-group">
+														<label for="crm_email">Email</label>
+														<input class="form-control" type="email" required="required"
+															placeholder="Email" name="crm_email" id="crm_email"
+															value="">
+													</div>
+
+													<div class="error"></div>
+													<div class="form-group">
+														<label for="crm_phone">Telefon</label>
+														<input class="form-control phone-format" type="text"
+															placeholder="Telefon" name="crm_phone" id="crm_phone"
+															value="">
+													</div>
+
+													<div class="error"></div>
+													<div class="form-group crm_subject">
+														<label for="crm_subject">Konu</label>
+														<input class="form-control" type="text" required="required"
+															placeholder="Konu" name="crm_subject" id="crm_subject"
+															value="">
+													</div>
+
+													<div class="error"></div>
+													<div class="form-group crm_message">
+														<label for="crm_message">Mesaj</label>
+														<textarea class="form-control" required="required"
+															placeholder="Mesaj" rows="6" name="crm_message"
+															id="crm_message"></textarea>
+													</div>
+												</div>
+												<button class="btn btn-dark">Gönder</button>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</main>
+
+				<footer class="Footer">
+					<div id="dump"></div>
+
+
+					<div class="Footer-banner">
+						<div class="Footer-content-logo">
+							<img src="u/rehberkitap/rehberlogo.png" alt="Rehberkitap" draggable="false">
+						</div>
+
+
+					</div>
+
+					<div class="Footer-appstore">
+
+					</div>
+
+					<div class="Footer-banner">
+						<font size="2">© 2024 rehberkitap. Tüm hakları saklıdır. </font>
+
+					</div>
+
+					<div class="Footer-button">
+						<span class="la la-angle-up"></span>
+					</div>
+
+				</footer>
+
+			</div>
+		</div>
+	</div>
+
+	<script src="https://www.rehberkitap.com/u/rehberkitap/combine.js?v=1130"></script>
+
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16557645419"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'AW-16557645419');
+	</script>
+	<script>
+		$(document).ready(function () {
+			$('.Login-social').css("margin-bottom", "20px");
+			$(".Login-form").prepend($('.Login-social'));
+		});
+		function addedToCartAfter() {
+			$('#added_to_cart_modal').modal('show');
+		}
+	</script>
+
+</body>
+</html>

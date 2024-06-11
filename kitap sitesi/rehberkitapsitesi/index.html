@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>rehberkitap.com</title>
+
+	<link rel="shortcut icon" href="u/rehberkitap/rehberkitap.ico" type="image/x-icon" />
+
+	<link type="text/css" href="../stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" />
+	<link type="text/css"
+		href="../cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css"
+		rel="stylesheet" />
+	<link type="text/css" href="../cdn.jsdelivr.net/npm/slick-carousel%401.8.1/slick/slick.css" rel="stylesheet" />
+	<link type="text/css" href="js/fancybox/jquery.fancybox0521.css?v=1130" rel="stylesheet" />
+	<link type="text/css" href="templates/default-neo/css/main0521.css?v=1130" rel="stylesheet" />
+
+	<style>
+		.form-group-select {
+			display: none
+		}
+
+		.banner_img {
+			border-radius: 10px;
+			background: white;
+		}
+
+		.la-search:before {
+			color: #000;
+		}
+
+
+		.Product .discount {
+			border-radius: 10px;
+		}
+
+		.card-link:hover,
+		.form-links-activation:hover,
+		.form-links-top a:hover {
+			color: darkslategray;
+		}
+
+		.side_item a:hover {
+			color: darkslategray;
+		}
+
+		@media screen and (max-width: 768px) {
+			.Header-menu .container {
+				background: #f2f5f5;
+			}
+
+			.tabs_view .nav a {
+				margin-bottom: 10px;
+			}
+
+			.Header-menu .container>i {
+				color: darkslategray;
+			}
+
+			.Header-menu ul li a span {
+				color: rgb(10, 181, 233);
+			}
+		}
+
+		.prd_view .publisher {
+			font-size: 1.3em;
+			font-weight: 600;
+			color: #0185f9;
+		}
+
+		.publisher:hover,
+		.cart_list_table .prd_name:hover {
+			color: rgb(4, 121, 223);
+		}
+
+		.publisher a {
+			color: #0185f9 !important;
+		}
+
+		.Search .form-group-search .btn {
+			background-color: #5eb6ff;
+			color: #fff;
+			width: 100px;
+		}
+
+		.la-search {
+			color: #fff;
+		}
+
+		.la-search:after {
+			content: "Ara";
+			font-family: Montserrat, sans-serif;
+			font-weight: 200;
+			font-size: 16px;
+			margin-left: 10px;
+			color: 000;
+		}
+
+		.Header-menu ul li a {
+			padding: 7px 20px;
+		}
+
+		.Header-menu ul li:last-child a {
+			background-color: #14006d;
+			color: #fff;
+			border-radius: 5px;
+		}
+
+		.tabs_view .nav a {
+			background-color: #07e6ff;
+			margin-right: 5px;
+			color: #fff
+		}
+
+		.Product-content .price_box .price_sale {
+			font-weight: bolder;
+			color: #1d2124;
+		}
+
+		.tabs_view .nav a.active {
+			background-color: #fff;
+			border-bottom-color: #07e6ff;
+		}
+
+		.Header-menu {
+			color: #fff;
+			background-color: #e9ecef;
+		}
+
+		.Header-menu ul li:hover {
+			background-color: #07e6ff;
+			border-radius: 5px;
+		}
+
+		.Box-header a {
+			font-weight: bolder;
+		}
+
+		.prd_view .pricebox_content .sale_price_row {
+			font-size: 1.8em;
+			color: #1d2124;
+			font-weight: bolder;
+			margin-top: 5px;
+		}
+
+
+		.Product .new_icon {
+			background-color: #07e6ff;
+			left: 10px;
+			text-transform: uppercase;
+			border-radius: 10px;
+		}
+
+		.prd_view .new_icon {
+			border-radius: 10px;
+			background-color: #07e6ff;
+		}
+
+		.prd_view .pricebox .discount {
+			background-color: #6c757d;
+		}
+
+		.Product .discount {
+			background-color: #0185f9;
+		}
+
+
+		.prd_view .pricebox .discount_text {
+			text-transform: uppercase;
+			font-size: 1em;
+			margin-top: 3px;
+			font-weight: bold;
+		}
+
+		.prd_view .pricebox .discount_number {
+			font-size: 1.3em;
+			font-weight: 600;
+		}
+
+		.Header-menu ul li a {
+			color: #212529;
+		}
+
+		.prd_view .pricebox .discount {
+			border-radius: 10px;
+		}
+
+
+		a {
+			color:
+				#ff5100;
+			font-weight: 400;
+			text-decoration: none;
+			background-color: transparent;
+		}
+
+		.Footer-content-logo img {
+			background: #1d2124;
+		}
+
+		.la-search {
+			color: #1d2124;
+		}
+
+		.button_order_confirm,
+		.button_order_next {
+			font-size: 1.3em
+		}
+	</style>
+
+	<!-- Google Tag Manager -->
+	<script>(function (w, d, s, l, i) {
+			w[l] = w[l] || []; w[l].push({
+				'gtm.start':
+					new Date().getTime(), event: 'gtm.js'
+			}); var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+					'../www.googletagmanager.com/gtm5445.html?id=' + i + dl; f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-M7FKRRMM');</script>
+	<!-- End Google Tag Manager -->
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="../www.googletagmanager.com/nsc242.html?id=GTM-M7FKRRMM" height="0" width="0"
+			style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	<meta name="google-site-verification" content="Z5yK8sbe_l5fhSQAWeD3E3P6DhkF-c8Nsnn_3SIEVog" />
+
+</head>
+
+<body>
+	<div class="page page_0 page_home  ">
+		<div class="container-page container-fluid container_logged_out">
+			<div class="Content-wrapper">
+
+				<div class="banner_top"></div>
+
+				<div class="Header-top">
+					<div class="container">
+
+						<div class="Header-top-menu">
+
+						</div>
+
+						<div class="user_menu">
+							<ul>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<header class="Header Header--sticky">
+					<div class="container Header-container">
+						<div class="Header-logo">
+							<i id="HeaderMenuOpen" class="la la-bars"></i>
+							<a href="index.html">
+								<img src="u/rehberkitap/rehberlogo.png" alt="rehberkitap">
+							</a>
+							<i id="HeaderSearchOpen" class="la la-search"></i>
+						</div>
+
+						<div class="Search">
+							<div class="Search-overlay"></div>
+							<div class="Search-container">
+								<i id="HeaderSearchClose" class="la la-close"></i>
+								<form>
+									<input type="hidden" name="p" value="Products" />
+									<input type="hidden" id="q_field_active" name="q_field_active" value="0" />
+
+									<div class="Search-content">
+
+										<div class="form-group form-group-search">
+											<input data-container="form-group-search" type="text" name="q" id="qsearch"
+												class="form-control" value=""
+												placeholder="kitap adı / yazar / yayınevi " autocomplete="off">
+											<button type="submit" class="btn" name="search">
+												<i class="la la-search"></i>
+											</button>
+											<div class="Search-autocomplete">
+												<div class="Search-autocomplete-content"></div>
+											</div>
+										</div>
+									</div>
+
+									<input type="hidden" id="q_field" name="q_field" value="" />
+								</form>
+							</div>
+						</div>
+						<div class="Header-right">
+							<div class="cart_box_container"></div>
+						</div>
+					</div>
+
+					<nav class="Header-menu">
+						<div class="Header-menu-overlay"></div>
+						<div class="container">
+							<i id="HeaderMenuClose" class="la la-times"></i>
+							<div class="Header-right">
+
+								<div class="Cart ">
+
+								</div>
+
+								<div class="cart_box_container"></div>
+							</div>
+							<ul>
+								<li><a href="index.html"><span>ANASAYFA</span></a>
+								</li>
+								<li><a href="yazarlar.html"><span>YAZARLAR</span></a>
+								</li>
+								<li><a href="yayinevleri.html"><span>YAYIN EVLERİ</span></a>
+								</li>
+								<li><a href="hakkimizda.html"><span>HAKKIMIZDA</span></a>
+								</li>
+								<li><a href="iletisim.html"><span>İLETİŞİM</span></a>
+								</li>
+
+
+							</ul>
+
+						</div>
+					</nav>
+				</header>
+				<main class="Content">
+					<div class="container">
+
+					</div>
+
+					<div class="layout_010">
+						<div>
+							<div class="mod_container " id="mod_container_17">
+								<div class="container">
+									<div class="banner_wrapper">
+										<div class="Carousel-wrapper">
+											<div class="Carousel Carousel-banner" data-slick='{"slidesToShow": 1}'>
+												<div class="Carousel-item">
+													<div class="Carousel-item-textbox">
+														<div class="container">
+															<div class="Carousel-caption">
+																<h3 class="animate fadeInDown">
+																	https://www.rehberkitap.com/ogre nmeyi-ogrenmek</h3>
+																<div class="animate fadeInUp"></div>
+																<a href="ogrenmeyi-ogrenmek.html"
+																	class="btn btn-orange animate fadeInUp">
+
+																</a>
+															</div>
+														</div>
+													</div>
+													<a href="ogrenmeyi-ogrenmek.html">
+														<img alt="https://www.rehberkitap.com/ogrenmeyi-ogrenmek"
+															src="u/rehberkitap/banners/ogrenmekbanner.jpg"
+															width="1440" height="460">
+													</a>
+												</div>
+												<div class="Carousel-item">
+													<div class="Carousel-item-textbox">
+														<div class="container">
+															<div class="Carousel-caption">
+																<h3 class="animate fadeInDown">
+																	https://www.rehberkitap.com/1984-84</h3>
+																<div class="animate fadeInUp"></div>
+																<a href="1984-84.html"
+																	class="btn btn-orange animate fadeInUp">
+
+																</a>
+															</div>
+														</div>
+													</div>
+													<a href="1984-84.html">
+														<img alt="https://www.rehberkitap.com/1984-84"
+															src="u/rehberkitap/banners/1984banner.jpg"
+															width="1140" height="364">
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+							<div class="mod_container " id="mod_container_166">
+								<div class="container">
+									<div class="Box tabs_view">
+										<nav class="Box-header" title="kitaplar">
+											<div class="nav nav-tabs" role="tablist">
+												<a class="nav-link" id="nav-tab-167_" data-toggle="tab" href="#tab_167"
+													role="tab" aria-controls="nav-167_" aria-selected="true">
+													Kitaplar
+												</a>
+
+											</div>
+										</nav>
+
+										<div class="Box-content tab-content" id="tabsModuleContent">
+											<div class="tab-pane fade " id="tab_167" role="tabpanel"
+												aria-labelledby="nav-tab-167_">
+												<div class="Box box_prd box_prd_slide">
+													<div class="Box-content">
+														<div class="Carousel-wrapper">
+															<ul class="Carousel Carousel-slider"
+																data-slick='{"dots": false, "slidesToShow": 6}'>
+
+																<li>
+																	<div class="Product Product_a Product_468572"
+																		data-prd-id="468572">
+
+																		<div class="Product-image-wrapper">
+																			<div class="Product-image image_a">
+																				<div class="prd_img_items">
+																					<div class="discount"
+																						data-discount="35">
+																						-%<span>35</span></div>
+																				</div>
+																				<a href="korku-duvarı.html" title="Korku Duvarını Yıkmak; Küller Altında Yakın Tarih Dizisi - 4"
+																					class="tooltip-ajax">
+																					<img class="prd_img prd_img_167_1_468572 lazy"
+																						width="100" height="100"
+																						src="i/1x1.png"
+																						data-src="u/rehberkitap/img/korku-duvarı.jpg"
+																						alt="Korku Duvarını Yıkmak; Küller Altında Yakın Tarih Dizisi - 4"
+																						title="Korku Duvarını Yıkmak; Küller Altında Yakın Tarih Dizisi - 4">
+																				</a>
+
+
+																			</div>
+																		</div>
+																		<div class="Product-content">
+																			<div class="name"><a>Korku Duvarını Yıkmak; Küller Altında Yakın Tarih Dizisi -
+																					4</a></div>
+																			<div class="writer"><a>Mustafa Armağan</a>
+																			</div>
+																			<div class="publisher"><a>Ketebe Yayınları</a></div>
+
+																			<div class="price_box">
+
+																				<div class="price_box_wrapper">
+																					<span
+																						class="price price_list convert_cur"
+																						data-price="120.00"
+																						data-cur-code="TL">120<sup>,00</sup><span
+																							class="fa fa-try fa_cur_code"></span></span>
+																					<span
+																						class="price price_sale convert_cur"
+																						data-price="78.00"
+																						data-cur-code="TL">75<sup>,00</sup><span
+																							class="fa fa-try fa_cur_code"></span></span>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</li>
+																<li>
+																	<div class="Product Product_a Product_468046"
+																		data-prd-id="468046">
+
+																		<div class="Product-image-wrapper">
+																			<div class="Product-image image_a">
+																				<div class="prd_img_items">
+																					<div class="discount"
+																						data-discount="35">
+																						-%<span>35</span></div>
+																				</div>
+
+
+																				<a href="neden-fransa.html" title="Neden Fransa&#039;yı Sever Ama Fransızları Sevmeyiz?"
+																					class="tooltip-ajax">
+																					<img class="prd_img prd_img_167_2_468046 lazy"
+																						width="100" height="100"
+																						src="i/1x1.png"
+																						data-src="u/rehberkitap/img/nedenfransa.jpg"
+																						alt="Neden Fransa&#039;yı Sever Ama Fransızları Sevmeyiz?"
+																						title="Neden Fransa&#039;yı Sever Ama Fransızları Sevmeyiz?">
+																				</a>
+
+																			</div>
+																		</div>
+																		<div class="Product-content">
+																			<div class="name"><a>Neden Fransa&#039;yı Sever Ama Fransızları Sevmeyiz?</a>
+																			</div>
+																			<div class="writer"><a>Jean Nadeau</a></div>
+																			<div class="publisher"><a>Ketebe Yayınları</a></div>
+
+																			<div class="price_box">
+
+																				<div class="price_box_wrapper">
+																					<span
+																						class="price price_list convert_cur"
+																						data-price="162.00"
+																						data-cur-code="TL">162<sup>,00</sup><span
+																							class="fa fa-try fa_cur_code"></span></span>
+																					<span
+																						class="price price_sale convert_cur"
+																						data-price="105.30"
+																						data-cur-code="TL">95<sup>,00</sup><span
+																							class="fa fa-try fa_cur_code"></span></span>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</li>
+																<li>
+																	<div class="Product Product_a Product_468045"
+																		data-prd-id="468045">
+
+																		<div class="Product-image-wrapper">
+																			<div class="Product-image image_a">
+																				<div class="prd_img_items">
+																					<div class="discount"
+																						data-discount="35">
+																						-%<span>35</span></div>
+																				</div>
+
+
+																				<a href="turk-edebiyati.html" title="Türk Edebiyatının Üç Sütunu"
+																					class="tooltip-ajax">
+																					<img class="prd_img prd_img_167_3_468045 lazy"
+																						width="100" height="100"
+																						src="i/1x1.png"
+																						data-src="u/rehberkitap/img/turk-edebiyati.jpg"
+																						alt="Türk Edebiyatının Üç Sütunu"
+																						title="Türk Edebiyatının Üç Sütunu">
+																				</a>
+
+
+																			</div>
+																		</div>
+																		<div class="Product-content">
+																			<div class="name"><a>Türk Edebiyatının Üç Sütunu
+																				
+
+																			</a></div>
+																			<div class="writer"><a>Hakan Arslanbenzer</a></div>
+																			<div class="publisher"><a>Ketebe Yayınları</a></div>
+
+																			<div class="price_box">
+
+																				<div class="price_box_wrapper">
+																					<span
+																						class="price price_list convert_cur"
+																						data-price="122.00"
+																						data-cur-code="TL">122<sup>,00</sup><span
+																							class="fa fa-try fa_cur_code"></span></span>
+																					<span
+																						class="price price_sale convert_cur"
+																						data-price="79.30"
+																						data-cur-code="TL">76<sup>,50</sup><span
+																							class="fa fa-try fa_cur_code"></span></span>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</li>
+																<li>
+																	<div class="Product Product_a Product_468044"
+																		data-prd-id="468044">
+
+																		<div class="Product-image-wrapper">
+																			<div class="Product-image image_a">
+																				<div class="prd_img_items">
+																					<div class="discount"
+																						data-discount="35">
+																						-%<span>35</span></div>
+																				</div>
+
+
+																				<a href="modern.html" title="Modern Bir Müslüman Âlimin İlmî Portresi"
+																					class="tooltip-ajax">
+																					<img class="prd_img prd_img_167_4_468044 lazy"
+																						width="100" height="100"
+																						src="i/1x1.png"
+																						data-src="u/rehberkitap/img/modern.jpg"
+																						alt="Modern Bir Müslüman Âlimin İlmî Portresi"
+																						title="Modern Bir Müslüman Âlimin İlmî Portresi">
+																				</a>
+
+
+																			</div>
+																		</div>
+																		<div class="Product-content">
+																			<div class="name"><a>Modern Bir Müslüman Âlimin İlmî Portresi</a></div>
+																			<div class="writer"><a>Muhammed Hamidullah</a></div>
+																			<div class="publisher"><a>Ketebe Yayınları</a></div>
+
+																			<div class="price_box">
+
+																				<div class="price_box_wrapper">
+																					<span
+																						class="price price_list convert_cur"
+																						data-price="158.00"
+																						data-cur-code="TL">158<sup>,00</sup><span
+																							class="fa fa-try fa_cur_code"></span></span>
+																					<span
+																						class="price price_sale convert_cur"
+																						data-price="102.70"
+																						data-cur-code="TL">105<sup>,00</sup><span
+																							class="fa fa-try fa_cur_code"></span></span>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</li>
+																<li>
+																	<div class="Product Product_a Product_468041"
+																		data-prd-id="468041">
+
+																		<div class="Product-image-wrapper">
+																			<div class="Product-image image_a">
+																				<div class="prd_img_items">
+																					<div class="discount"
+																						data-discount="35">
+																						-%<span>35</span></div>
+																				</div>
+
+
+																				<a href="kvaidan.html" title="Kvaidan; Tuhaf Şeylere Dair Hikâyeler"
+																					class="tooltip-ajax">
+																					<img class="prd_img prd_img_167_5_468041 lazy"
+																						width="100" height="100"
+																						src="i/1x1.png"
+																						data-src="u/rehberkitap/img/kvaidan.jpg"
+																						alt="Kvaidan; Tuhaf Şeylere Dair Hikâyeler"
+																						title="Kvaidan; Tuhaf Şeylere Dair Hikâyeler">
+																				</a>
+
+
+																			</div>
+																		</div>
+																		<div class="Product-content">
+																			<div class="name"><a>Kvaidan; Tuhaf Şeylere Dair Hikâyeler</a>
+																			</div>
+																			<div class="writer"><a>Lafcadio Hearn</a></div>
+																			<div class="publisher"><a>Ketebe Yayınları</a></div>
+
+																			<div class="price_box">
+
+																				<div class="price_box_wrapper">
+																					<span
+																						class="price price_list convert_cur"
+																						data-price="151.00"
+																						data-cur-code="TL">151<sup>,00</sup><span
+																							class="fa fa-try fa_cur_code"></span></span>
+																					<span
+																						class="price price_sale convert_cur"
+																						data-price="98.15"
+																						data-cur-code="TL">99<sup>,25</sup><span
+																							class="fa fa-try fa_cur_code"></span></span>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</li>
+																<li>
+																	<div class="Product Product_a Product_468040"
+																		data-prd-id="468040">
+
+																		<div class="Product-image-wrapper">
+																			<div class="Product-image image_a">
+																				<div class="prd_img_items">
+																					<div class="discount"
+																						data-discount="35">
+																						-%<span>35</span></div>
+																				</div>
+
+
+																				<a href="serbestcumhuriyetfirkasi.html" title="Serbest Cumhuriyet Fırkası; Nasıl Doğdu, Nasıl Feshedildi?"
+																					class="tooltip-ajax">
+																					<img class="prd_img prd_img_167_6_468040 lazy"
+																						width="100" height="100"
+																						src="i/1x1.png"
+																						data-src="u/rehberkitap/img/serbest.jpg"
+																						alt="Serbest Cumhuriyet Fırkası; Nasıl Doğdu, Nasıl Feshedildi?"
+																						title="Serbest Cumhuriyet Fırkası; Nasıl Doğdu, Nasıl Feshedildi?">
+																				</a>
+
+
+																			</div>
+																		</div>
+																		<div class="Product-content">
+																			<div class="name"><a>Serbest Cumhuriyet Fırkası; Nasıl Doğdu, Nasıl Feshedildi?</a></div>
+																			<div class="writer"><a>Ali Fethi Okyar</a></div>
+																			<div class="publisher"><a>Ketebe Yayınları</a></div>
+
+																			<div class="price_box">
+
+																				<div class="price_box_wrapper">
+																					<span
+																						class="price price_list convert_cur"
+																						data-price="92.00"
+																						data-cur-code="TL">92<sup>,00</sup><span
+																							class="fa fa-try fa_cur_code"></span></span>
+																					<span
+																						class="price price_sale convert_cur"
+																						data-price="59.80"
+																						data-cur-code="TL">59<sup>,00</sup><span
+																							class="fa fa-try fa_cur_code"></span></span>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</li>
+																<li>
+																	<div class="Product Product_a Product_468039"
+																		data-prd-id="468039">
+
+																		<div class="Product-image-wrapper">
+																			<div class="Product-image image_a">
+																				<div class="prd_img_items">
+																					<div class="discount"
+																						data-discount="35">
+																						-%<span>35</span></div>
+																				</div>
+
+
+																				<a href="goctoplumu.html" title="Göç ve Toplum; Dünyada ve Türkiye&#039;de Değişen Nüfus Hareketleri"
+																					class="tooltip-ajax">
+																					<img class="prd_img prd_img_167_7_468039 lazy"
+																						width="100" height="100"
+																						src="i/1x1.png"
+																						data-src="u/rehberkitap/img/goc.jpg"
+																						alt="Göç ve Toplum; Dünyada ve Türkiye&#039;de Değişen Nüfus Hareketleri"
+																						title="Göç ve Toplum; Dünyada ve Türkiye&#039;de Değişen Nüfus Hareketleri">
+																				</a>
+
+
+																			</div>
+																		</div>
+																		<div class="Product-content">
+																			<div class="name"><a>Göç ve Toplum; Dünyada ve Türkiye&#039;de Değişen Nüfus Hareketleri</a></div>
+																			<div class="writer"><a>Fatih Yaman</a></div>
+																			<div class="publisher"><a>Ketebe Yayınları</a></div>
+
+																			<div class="price_box">
+
+																				<div class="price_box_wrapper">
+																					<span
+																						class="price price_list convert_cur"
+																						data-price="117.00"
+																						data-cur-code="TL">117<sup>,00</sup><span
+																							class="fa fa-try fa_cur_code"></span></span>
+																					<span
+																						class="price price_sale convert_cur"
+																						data-price="76.05"
+																						data-cur-code="TL">76<sup>,00</sup><span
+																							class="fa fa-try fa_cur_code"></span></span>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</li>
+																<li>
+																	<div class="Product Product_a Product_468038"
+																		data-prd-id="468038">
+
+																		<div class="Product-image-wrapper">
+																			<div class="Product-image image_a">
+																				<div class="prd_img_items">
+																					<div class="discount"
+																						data-discount="35">
+																						-%<span>35</span></div>
+																				</div>
+
+
+																				<a href="safahat.html" title="Safahat" class="tooltip-ajax">
+																					<img class="prd_img prd_img_167_8_468038 lazy"
+																						width="100" height="100"
+																						src="i/1x1.png"
+																						data-src="u/rehberkitap/img/safahat1.jpg"
+																						alt="Safahat" title="Safahat">
+																				</a>
+
+
+																			</div>
+																		</div>
+																		<div class="Product-content">
+																			<div class="name"><a>Safahat
+
+																			</a>
+																			</div>
+																			<div class="writer"><a>Mehmet Akif Ersoy
+
+
+																			</a></div>
+																			<div class="publisher"><a>Ketebe Yayınları</a></div>
+
+																			<div class="price_box">
+
+																				<div class="price_box_wrapper">
+																					<span
+																						class="price price_list convert_cur"
+																						data-price="149.00"
+																						data-cur-code="TL">149<sup>,00</sup><span
+																							class="fa fa-try fa_cur_code"></span></span>
+																					<span
+																						class="price price_sale convert_cur"
+																						data-price="96.85"
+																						data-cur-code="TL">90<sup>,50</sup><span
+																							class="fa fa-try fa_cur_code"></span></span>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</li>
+																<li>
+																	<div class="Product Product_a Product_468037"
+																		data-prd-id="468037">
+
+																		<div class="Product-image-wrapper">
+																			<div class="Product-image image_a">
+																				<div class="prd_img_items">
+																					<div class="discount"
+																						data-discount="35">
+																						-%<span>35</span></div>
+																				</div>
+
+
+																				<a href="sezai.html" title="Sezai Karakoç Kuşağı:İkinci Yeni"
+																					class="tooltip-ajax">
+																					<img class="prd_img prd_img_167_9_468037 lazy"
+																						width="100" height="100"
+																						src="i/1x1.png"
+																						data-src="u/rehberkitap/img/sezai.jpg"
+																						alt="Sezai Karakoç Kuşağı:İkinci Yeni"
+																						title="Sezai Karakoç Kuşağı:İkinci Yeni">
+																				</a>
+
+
+																			</div>
+																		</div>
+																		<div class="Product-content">
+																			<div class="name"><a>Sezai Karakoç Kuşağı:İkinci Yeni</a></div>
+																			<div class="writer"><a>Zafer Acar</a></div>
+																			<div class="publisher"><a>Ketebe Yayınları</a></div>
+
+																			<div class="price_box">
+
+																				<div class="price_box_wrapper">
+																					<span
+																						class="price price_list convert_cur"
+																						data-price="158.00"
+																						data-cur-code="TL">158<sup>,00</sup><span
+																							class="fa fa-try fa_cur_code"></span></span>
+																					<span
+																						class="price price_sale convert_cur"
+																						data-price="102.70"
+																						data-cur-code="TL">102<sup>,00</sup><span
+																							class="fa fa-try fa_cur_code"></span></span>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</li>
+															</ul>
+														</div>
+													</div>
+
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+
+
+						</div>
+					</div>
+
+					<div id="layout_style" class="container layout_010">
+						<div class="main_content">
+
+							<div class="mod_container " id="mod_container_144">
+								<div class="container">
+									<div class="banner_wrapper">
+
+									</div>
+
+								</div>
+							</div>
+
+							<div class="mod_container " id="mod_container_149">
+								<div class="container">
+									<div class="banner_wrapper">
+										<div class="banner-multiple grid grid-5">
+											<a>
+												<span class="banner_img_box banner_img_box0">
+													<img class="banner_img banner_img0"
+														alt="https://www.rehberkitap.com/kronik-kitap"
+														src="u/rehberkitap/banners/kronik.png"
+														width="626" height="421" />
+												</span>
+											</a>
+											<a>
+												<span class="banner_img_box banner_img_box1">
+													<img class="banner_img banner_img1"
+														alt="https://rehberkitap.com/ketebe-yayinlari"
+														src="u/rehberkitap/banners/ketebe.png"
+														width="626" height="421" />
+												</span>
+											</a>
+											<a>
+												<span class="banner_img_box banner_img_box2">
+													<img class="banner_img banner_img2"
+														alt="https://www.rehberkitap.com/domingo-yayinevi"
+														src="u/rehberkitap/banners/domingo.png"
+														width="626" height="421" />
+												</span>
+											</a>
+											<a>
+												<span class="banner_img_box banner_img_box3">
+													<img class="banner_img banner_img3"
+														alt="https://www.rehberkitap.com/dex-kitap"
+														src="u/rehberkitap/banners/dex.png" width="626"
+														height="421" />
+												</span>
+											</a>
+											<a>
+												<span class="banner_img_box banner_img_box4">
+													<img class="banner_img banner_img4"
+														alt="https://www.rehberkitap.com/ephesus-yayinlari"
+														src="u/rehberkitap/banners/ephesus.png"
+														width="626" height="421" />
+												</span>
+											</a>
+
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+
+						</div>
+					</div>
+
+					<div class="layout_010">
+						<div>
+
+						</div>
+					</div>
+
+				</main>
+
+
+				<footer class="Footer">
+					<div id="dump"></div>
+
+
+					<div class="Footer-banner">
+						<div class="Footer-content-logo">
+							<img src="u/rehberkitap/rehberlogo.png" alt="Rehberkitap" draggable="false">
+						</div>
+
+
+					</div>
+
+					<div class="Footer-appstore">
+
+					</div>
+
+					<div class="Footer-banner">
+						<font size="2">© 2024 rehberkitap. Tüm hakları saklıdır. </font>
+
+
+
+					</div>
+
+					<div class="Footer-button">
+						<span class="la la-angle-up"></span>
+					</div>
+
+
+
+
+				</footer>
+			</div>
+		</div>
+	</div>
+	<script src="u/rehberkitap/combine0521.js?v=1130"></script>
+
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="../www.googletagmanager.com/gtag/js60f9?id=AW-16557645419"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'AW-16557645419');
+	</script>
+	<script>
+		$(document).ready(function () {
+			$('.Login-social').css("margin-bottom", "20px");
+			$(".Login-form").prepend($('.Login-social'));
+		});
+		function addedToCartAfter() {
+			$('#added_to_cart_modal').modal('show');
+		}
+	</script>
+</body>
+
+</html>
